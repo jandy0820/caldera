@@ -1,0 +1,458 @@
+<! DOCTYPE html >
+< html  lang = " en " >
+    < cabeza >
+        < meta  charset = " utf-8 " />
+        < meta  name = " viewport " content = " width = device-width, initial-scale = 1, shrink-to-fit = no " />
+        < meta  name = " description " content = "" />
+        < meta  name = " autor " content = "" />
+        < título > Freelancer - Iniciar tema Bootstrap </ título >
+        <! - Favicon ->
+        < link  rel = " icon " type = " image / x-icon " href = " assets / img / favicon.ico " />
+        <! - Font Awesome icons (versión gratuita) ->
+        < script  src = " https://use.fontawesome.com/releases/v5.15.1/js/all.js " crossorigin = " anónimo " > </ script >
+        <! - Fuentes de Google ->
+        < link  href = " https://fonts.googleapis.com/css?family=Montserrat:400,700 " rel = " stylesheet " type = " text / css " />
+        < link  href = " https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic " rel = " stylesheet " type = " text / css " />
+        <! - CSS del tema central (incluye Bootstrap) ->
+        < link  href = " css / styles.css " rel = " stylesheet " />
+    </ cabeza >
+    < body  id = " page-top " >
+        <! - Navegación ->
+        < nav  class = " barra de navegación barra de navegación-expand-lg bg-texto secundario-mayúscula fija-superior " id = " mainNav " >
+            < div  class = " contenedor " >
+                < Una  clase = " barra de navegación de la marca JS-scroll-trigger " href =" # page-top " > Inicio Bootstrap </ a >
+                < button  class = " navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white round " type = " button " data-toggle = " collapse " data-target = " #navbarResponsive " aria -controls = " navbarResponsive " aria- extended = " false " aria-label = " Alternar navegación " >
+                    Menú
+                    < i  class = " fas fa-bars " > </ i >
+                </ botón >
+                < div  class = " collapse navbar-collapse " id = " navbarResponsive " >
+                    < ul  class = " navbar-nav ml-auto " >
+                        < li  class = " nav-item mx-0 mx-lg-1 " > < a  class = " nav-link py-3 px-0 px-lg-3 redondeado js-scroll-trigger " href = " #portfolio " > Cartera </ a > </ li >
+                        < li  class = " nav-item mx-0 mx-lg-1 " > < a  class = " nav-link py-3 px-0 px-lg-3 redondeado js-scroll-trigger " href = " #about " > Acerca de </ a > </ li >
+                        < li  class = " nav-item mx-0 mx-lg-1 " > < a  class = " nav-link py-3 px-0 px-lg-3 redondeado js-scroll-trigger " href = " #contact " > Contacto </ a > </ li >
+                    </ ul >
+                </ div >
+            </ div >
+        </ nav >
+        <! - Cabecera ->
+        < header  class = " masthead bg-primary text-white text-center " >
+            < div  class = " contenedor d-flex align-items-center flex-column " >
+                <! - Imagen de avatar de cabecera ->
+                < img  class = " masthead-avatar mb-5 " src = " assets / img / avataaars.svg " alt = "" />
+                <! - Encabezado de cabecera ->
+                < h1  class = " masthead-header text-uppercase mb-0 " > Iniciar Bootstrap </ h1 >
+                <! - Divisor de iconos ->
+                < div  class = " divider-custom divider-light " >
+                    < div  class = " divider-custom-line " > </ div >
+                    < div  class = " divider-custom-icon " > < i  class = " fas fa-star " > </ i > </ div >
+                    < div  class = " divider-custom-line " > </ div >
+                </ div >
+                <! - Subtítulo de cabecera ->
+                < p  class = " masthead-subheading font-weight-light mb-0 " > Artista gráfico - Diseñador web - Ilustrador </ p >
+            </ div >
+        </ encabezado >
+        <! - Sección de cartera ->
+        < section  class = " portafolio de sección de página " id = " portafolio " >
+            < div  class = " contenedor " >
+                <! - Título de la sección de la cartera ->
+                < h2  class = " página-sección-encabezado de texto-centro de texto-texto en mayúsculas-secundario mb-0 " > Portafolio </ h2 >
+                <! - Divisor de iconos ->
+                < div  class = " divider-custom " >
+                    < div  class = " divider-custom-line " > </ div >
+                    < div  class = " divider-custom-icon " > < i  class = " fas fa-star " > </ i > </ div >
+                    < div  class = " divider-custom-line " > </ div >
+                </ div >
+                <! - Elementos de la cuadrícula de la cartera ->
+                < div  class = " row justify-content-center " >
+                    <! - Elemento de la carpeta de trabajos 1 ->
+                    < div  class = " col-md-6 col-lg-4 mb-5 " >
+                        < div  class = " portfolio-item mx-auto " data-toggle = " modal " data-target = " # portfolioModal1 " >
+                            < div  class = " portafolio-artículo-título d-flex align-items-center justify-content-center h-100 w-100 " >
+                                < div  class = " portfolio-item-caption-content text-center text-white " > < i  class = " fas fa-plus fa-3x " > </ i > </ div >
+                            </ div >
+                            < img  class = " img-fluid " src = " assets / img / portfolio / cabin.png " alt = "" />
+                        </ div >
+                    </ div >
+                    <! - Elemento de cartera 2 ->
+                    < div  class = " col-md-6 col-lg-4 mb-5 " >
+                        < div  class = " portfolio-item mx-auto " data-toggle = " modal " data-target = " # portfolioModal2 " >
+                            < div  class = " portafolio-artículo-título d-flex align-items-center justify-content-center h-100 w-100 " >
+                                < div  class = " portfolio-item-caption-content text-center text-white " > < i  class = " fas fa-plus fa-3x " > </ i > </ div >
+                            </ div >
+                            < img  class = " img-fluid " src = " assets / img / portfolio / cake.png " alt = "" />
+                        </ div >
+                    </ div >
+                    <! - Elemento de la carpeta de trabajos 3 ->
+                    < div  class = " col-md-6 col-lg-4 mb-5 " >
+                        < div  class = " portfolio-item mx-auto " data-toggle = " modal " data-target = " # portfolioModal3 " >
+                            < div  class = " portafolio-artículo-título d-flex align-items-center justify-content-center h-100 w-100 " >
+                                < div  class = " portfolio-item-caption-content text-center text-white " > < i  class = " fas fa-plus fa-3x " > </ i > </ div >
+                            </ div >
+                            < img  class = " img-fluid " src = " assets / img / portfolio / circus.png " alt = "" />
+                        </ div >
+                    </ div >
+                    <! - Elemento de la carpeta de trabajos 4 ->
+                    < div  class = " col-md-6 col-lg-4 mb-5 mb-lg-0 " >
+                        < div  class = " portfolio-item mx-auto " data-toggle = " modal " data-target = " # portfolioModal4 " >
+                            < div  class = " portafolio-artículo-título d-flex align-items-center justify-content-center h-100 w-100 " >
+                                < div  class = " portfolio-item-caption-content text-center text-white " > < i  class = " fas fa-plus fa-3x " > </ i > </ div >
+                            </ div >
+                            < img  class = " img-fluid " src = " assets / img / portfolio / game.png " alt = "" />
+                        </ div >
+                    </ div >
+                    <! - Elemento de la carpeta de trabajos 5 ->
+                    < div  class = " col-md-6 col-lg-4 mb-5 mb-md-0 " >
+                        < div  class = " portfolio-item mx-auto " data-toggle = " modal " data-target = " # portfolioModal5 " >
+                            < div  class = " portafolio-artículo-título d-flex align-items-center justify-content-center h-100 w-100 " >
+                                < div  class = " portfolio-item-caption-content text-center text-white " > < i  class = " fas fa-plus fa-3x " > </ i > </ div >
+                            </ div >
+                            < img  class = " img-fluid " src = " assets / img / portfolio / safe.png " alt = "" />
+                        </ div >
+                    </ div >
+                    <! - Elemento de cartera 6 ->
+                    < div  class = " col-md-6 col-lg-4 " >
+                        < div  class = " portfolio-item mx-auto " data-toggle = " modal " data-target = " # portfolioModal6 " >
+                            < div  class = " portafolio-artículo-título d-flex align-items-center justify-content-center h-100 w-100 " >
+                                < div  class = " portfolio-item-caption-content text-center text-white " > < i  class = " fas fa-plus fa-3x " > </ i > </ div >
+                            </ div >
+                            < img  class = " img-fluid " src = " assets / img / portfolio / submarine.png " alt = "" />
+                        </ div >
+                    </ div >
+                </ div >
+            </ div >
+        </ sección >
+        <! - Sección Acerca de ->
+        < section  class = " page-section bg-primary text-white mb-0 " id = " about " >
+            < div  class = " contenedor " >
+                <! - Acerca del encabezado de sección ->
+                < h2  class = " page-section-header text-center text-uppercase text-white " > Acerca de </ h2 >
+                <! - Divisor de iconos ->
+                < div  class = " divider-custom divider-light " >
+                    < div  class = " divider-custom-line " > </ div >
+                    < div  class = " divider-custom-icon " > < i  class = " fas fa-star " > </ i > </ div >
+                    < div  class = " divider-custom-line " > </ div >
+                </ div >
+                <! - Acerca del contenido de la sección ->
+                < div  class = " fila " >
+                    < div  class = " col-lg-4 ml-auto " > < p  class = " lead " > Freelancer es un tema de arranque gratuito creado por Start Bootstrap. La descarga incluye los archivos fuente completos, incluidos HTML, CSS y JavaScript, así como hojas de estilo SASS opcionales para una fácil personalización. </ p > </ div >
+                    < div  class = " col-lg-4 mr-auto " > < p  class = " lead " > Puede crear su propio avatar personalizado para la cabecera, cambiar el icono en los divisores y agregar su dirección de correo electrónico al formulario de contacto para hacerlo completamente funcional! </ p > </ div >
+                </ div >
+                <! - Botón de sección Acerca de ->
+                < div  class = " text-center mt-4 " >
+                    < Una  clase = " btn btn btn-xl-outline-luz " href =" https://startbootstrap.com/theme/freelancer/ " >
+                        < i  class = " fas fa-download mr-2 " > </ i >
+                        ¡Descarga gratis!
+                    </ a >
+                </ div >
+            </ div >
+        </ sección >
+        <! - Sección de contacto ->
+        < section  class = " page-section " id = " contacto " >
+            < div  class = " contenedor " >
+                <! - Encabezado de la sección de contacto ->
+                < h2  class = " página-sección-encabezado de texto-centro de texto-texto en mayúsculas-secundario mb-0 " > Contáctame </ h2 >
+                <! - Divisor de iconos ->
+                < div  class = " divider-custom " >
+                    < div  class = " divider-custom-line " > </ div >
+                    < div  class = " divider-custom-icon " > < i  class = " fas fa-star " > </ i > </ div >
+                    < div  class = " divider-custom-line " > </ div >
+                </ div >
+                <! - Formulario de sección de contacto ->
+                < div  class = " fila " >
+                    < div  class = " col-lg-8 mx-auto " >
+                        <! - Para configurar la dirección de correo electrónico del formulario de contacto, vaya a mail / contact_me.php y actualice la dirección de correo electrónico en el archivo PHP en la línea 19 .-->
+                        < form  id = " contactForm " name = " sentMessage " novalidate = " novalidate " >
+                            < div  class = " grupo-control " >
+                                < div  class = " formulario-grupo flotante-etiqueta-formulario-grupo controles mb-0 pb-2 " >
+                                    < etiqueta > Nombre </ etiqueta >
+                                    < input  class = " form-control " id = " name " type = " text " placeholder = " Name " required = " required " data-validation-required-message = " Por favor ingrese su nombre. " />
+                                    < p  class = " help-block text-danger " > </ p >
+                                </ div >
+                            </ div >
+                            < div  class = " grupo-control " >
+                                < div  class = " formulario-grupo flotante-etiqueta-formulario-grupo controles mb-0 pb-2 " >
+                                    < label > Dirección de correo electrónico </ label >
+                                    < input  class = " form-control " id = " email " type = " email " placeholder = " Dirección de correo electrónico " required = " required " data-validation-required-message = " Ingrese su dirección de correo electrónico. " />
+                                    < p  class = " help-block text-danger " > </ p >
+                                </ div >
+                            </ div >
+                            < div  class = " grupo-control " >
+                                < div  class = " formulario-grupo flotante-etiqueta-formulario-grupo controles mb-0 pb-2 " >
+                                    < etiqueta > Número de teléfono </ etiqueta >
+                                    < input  class = " form-control " id = " phone " type = " tel " placeholder = " Phone Number " required = " required " data-validation-required-message = " Ingrese su número de teléfono. " />
+                                    < p  class = " help-block text-danger " > </ p >
+                                </ div >
+                            </ div >
+                            < div  class = " grupo-control " >
+                                < div  class = " formulario-grupo flotante-etiqueta-formulario-grupo controles mb-0 pb-2 " >
+                                    < etiqueta > Mensaje </ etiqueta >
+                                    < textarea  class = " form-control " id = " message " rows = " 5 " placeholder = " Message " required = " required " data-validation-required-message = " Por favor ingrese un mensaje. " > </ textarea >
+                                    < p  class = " help-block text-danger " > </ p >
+                                </ div >
+                            </ div >
+                            < Br />
+                            < div  id = " éxito " > </ div >
+                            < div  class = " form-group " > < button  class = " btn btn-primary btn-xl " id = " sendMessageButton " type = " submit " > Enviar </ button > </ div >
+                        </ formulario >
+                    </ div >
+                </ div >
+            </ div >
+        </ sección >
+        <! - Pie de página ->
+        < footer  class = " footer text-center " >
+            < div  class = " contenedor " >
+                < div  class = " fila " >
+                    <! - Ubicación del pie de página ->
+                    < div  class = " col-lg-4 mb-5 mb-lg-0 " >
+                        < h4  class = " text-uppercase mb-4 " > Ubicación </ h4 >
+                        < p  class = " lead mb-0 " >
+                            2215 John Daniel Drive
+                            < Br />
+                            Clark, MO 65243
+                        </ p >
+                    </ div >
+                    <! - Footer Social Icons ->
+                    < div  class = " col-lg-4 mb-5 mb-lg-0 " >
+                        < h4  class = " text-uppercase mb-4 " > En la Web </ h4 >
+                        < Una  clase = " btn btn-outline-luz BTN-sociales mx-1 " href =" #! " > < I  clase =" Fab fa-fa-FW facebook-f " > </ i > </ a >
+                        < Una  clase = " btn btn-outline-luz BTN-sociales mx-1 " href =" #! " > < I  clase =" Fab fa-fa-FW Twitter " > </ i > </ a >
+                        < Una  clase = " btn btn-outline-luz BTN-sociales mx-1 " href =" #! " > < I  clase =" Fab fa-fa-FW-linkedin en " > </ i > </ a >
+                        < Una  clase = " btn btn-outline-luz BTN-sociales mx-1 " href =" #! " > < I  clase =" Fab fa-fa-FW dribbble " > </ i > </ a >
+                    </ div >
+                    <! - Pie de página sobre el texto ->
+                    < div  class = " col-lg-4 " >
+                        < h4  class = " text-uppercase mb-4 " > Acerca de Freelancer </ h4 >
+                        < p  class = " lead mb-0 " >
+                            Freelance es un tema Bootstrap con licencia del MIT y de uso gratuito creado por
+                            < Un  href = " http://startbootstrap.com " > Inicio Bootstrap </ a >
+                            .
+                        </ p >
+                    </ div >
+                </ div >
+            </ div >
+        </ pie de página >
+        <! - Sección de derechos de autor ->
+        < div  class = " copyright py-4 text-center text-white " >
+            < div  class = " container " > < small > Copyright © Su sitio web 2020 </ small > </ div >
+        </ div >
+        <! - Botón de desplazamiento hacia la parte superior (solo visible en tamaños de pantalla pequeños y extrapequeños) ->
+        < div  class = " scroll-to-top d-lg-none position-fixed " >
+            < Una  clase = " js-scroll-trigger d-bloque de texto-center-texto blanco redondeado " href =" # página-top " > < i  clase =" fa fa-chevron-up " > </ i > </ una >
+        </ div >
+        <! - Portfolio Modals ->
+        <! - Modal de cartera 1 ->
+        < div  class = " portfolio-modal modal fade " id = " portfolioModal1 " tabindex = " -1 " role = " dialog " aria-labelledby = " portfolioModal1Label " aria-hidden = " true " >
+            < div  class = " modal-dialog modal-xl " role = " document " >
+                < div  class = " modal-content " >
+                    < button  class = " close " type = " button " data-dispats = " modal " aria-label = " Cerrar " >
+                        < span  aria-hidden = " true " > < i  class = " fas fa-times " > </ i > </ span >
+                    </ botón >
+                    < div  class = " modal-body text-center " >
+                        < div  class = " contenedor " >
+                            < div  class = " row justify-content-center " >
+                                < div  class = " col-lg-8 " >
+                                    <! - Modal de cartera - Título ->
+                                    < h2  class = " portafolio-modal-título texto-texto secundario-mayúsculas mb-0 " id = " portafolioModal1Label " > Cabaña de troncos </ h2 >
+                                    <! - Divisor de iconos ->
+                                    < div  class = " divider-custom " >
+                                        < div  class = " divider-custom-line " > </ div >
+                                        < div  class = " divider-custom-icon " > < i  class = " fas fa-star " > </ i > </ div >
+                                        < div  class = " divider-custom-line " > </ div >
+                                    </ div >
+                                    <! - Modal de cartera - Imagen ->
+                                    < img  class = " img-fluid redondeado mb-5 " src = " assets / img / portfolio / cabin.png " alt = "" />
+                                    <! - Modal de cartera - Texto ->
+                                    < p  class = " mb-5 " > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam. </ p >
+                                    < button  class = " btn btn-primary " data-dispats = " modal " >
+                                        < i  class = " fas fa-times fa-fw " > </ i >
+                                        Cerrar ventana
+                                    </ botón >
+                                </ div >
+                            </ div >
+                        </ div >
+                    </ div >
+                </ div >
+            </ div >
+        </ div >
+        <! - Modal de cartera 2 ->
+        < div  class = " portfolio-modal modal fade " id = " portfolioModal2 " tabindex = " -1 " role = " dialog " aria-labelledby = " portfolioModal2Label " aria-hidden = " true " >
+            < div  class = " modal-dialog modal-xl " role = " document " >
+                < div  class = " modal-content " >
+                    < button  class = " close " type = " button " data-dispats = " modal " aria-label = " Cerrar " >
+                        < span  aria-hidden = " true " > < i  class = " fas fa-times " > </ i > </ span >
+                    </ botón >
+                    < div  class = " modal-body text-center " >
+                        < div  class = " contenedor " >
+                            < div  class = " row justify-content-center " >
+                                < div  class = " col-lg-8 " >
+                                    <! - Modal de cartera - Título ->
+                                    < h2  class = " portafolio-modal-title texto-texto secundario-mayúsculas mb-0 " id = " portafolioModal2Label " > Pastel sabroso </ h2 >
+                                    <! - Divisor de iconos ->
+                                    < div  class = " divider-custom " >
+                                        < div  class = " divider-custom-line " > </ div >
+                                        < div  class = " divider-custom-icon " > < i  class = " fas fa-star " > </ i > </ div >
+                                        < div  class = " divider-custom-line " > </ div >
+                                    </ div >
+                                    <! - Modal de cartera - Imagen ->
+                                    < img  class = " img-fluid redondeado mb-5 " src = " assets / img / portfolio / cake.png " alt = "" />
+                                    <! - Modal de cartera - Texto ->
+                                    < p  class = " mb-5 " > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam. </ p >
+                                    < button  class = " btn btn-primary " data-dispats = " modal " >
+                                        < i  class = " fas fa-times fa-fw " > </ i >
+                                        Cerrar ventana
+                                    </ botón >
+                                </ div >
+                            </ div >
+                        </ div >
+                    </ div >
+                </ div >
+            </ div >
+        </ div >
+        <! - Modal de cartera 3 ->
+        < div  class = " portfolio-modal modal fade " id = " portfolioModal3 " tabindex = " -1 " role = " dialog " aria-labelledby = " portfolioModal3Label " aria-hidden = " true " >
+            < div  class = " modal-dialog modal-xl " role = " document " >
+                < div  class = " modal-content " >
+                    < button  class = " close " type = " button " data-dispats = " modal " aria-label = " Cerrar " >
+                        < span  aria-hidden = " true " > < i  class = " fas fa-times " > </ i > </ span >
+                    </ botón >
+                    < div  class = " modal-body text-center " >
+                        < div  class = " contenedor " >
+                            < div  class = " row justify-content-center " >
+                                < div  class = " col-lg-8 " >
+                                    <! - Modal de cartera - Título ->
+                                    < h2  class = " portfolio-modal-title text-secondary text-uppercase mb-0 " id = " portfolioModal3Label " > Carpa de circo </ h2 >
+                                    <! - Divisor de iconos ->
+                                    < div  class = " divider-custom " >
+                                        < div  class = " divider-custom-line " > </ div >
+                                        < div  class = " divider-custom-icon " > < i  class = " fas fa-star " > </ i > </ div >
+                                        < div  class = " divider-custom-line " > </ div >
+                                    </ div >
+                                    <! - Modal de cartera - Imagen ->
+                                    < img  class = " img-fluid redondeado mb-5 " src = " assets / img / portfolio / circus.png " alt = "" />
+                                    <! - Modal de cartera - Texto ->
+                                    < p  class = " mb-5 " > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam. </ p >
+                                    < button  class = " btn btn-primary " data-dispats = " modal " >
+                                        < i  class = " fas fa-times fa-fw " > </ i >
+                                        Cerrar ventana
+                                    </ botón >
+                                </ div >
+                            </ div >
+                        </ div >
+                    </ div >
+                </ div >
+            </ div >
+        </ div >
+        <! - Modal de cartera 4 ->
+        < div  class = " portfolio-modal modal fade " id = " portfolioModal4 " tabindex = " -1 " role = " dialog " aria-labelledby = " portfolioModal4Label " aria-hidden = " true " >
+            < div  class = " modal-dialog modal-xl " role = " document " >
+                < div  class = " modal-content " >
+                    < button  class = " close " type = " button " data-dispats = " modal " aria-label = " Cerrar " >
+                        < span  aria-hidden = " true " > < i  class = " fas fa-times " > </ i > </ span >
+                    </ botón >
+                    < div  class = " modal-body text-center " >
+                        < div  class = " contenedor " >
+                            < div  class = " row justify-content-center " >
+                                < div  class = " col-lg-8 " >
+                                    <! - Modal de cartera - Título ->
+                                    < h2  class = " portafolio-modal-título texto-texto secundario-mayúsculas mb-0 " id = " portafolioModal4Label " > Controlador </ h2 >
+                                    <! - Divisor de iconos ->
+                                    < div  class = " divider-custom " >
+                                        < div  class = " divider-custom-line " > </ div >
+                                        < div  class = " divider-custom-icon " > < i  class = " fas fa-star " > </ i > </ div >
+                                        < div  class = " divider-custom-line " > </ div >
+                                    </ div >
+                                    <! - Modal de cartera - Imagen ->
+                                    < img  class = " img-fluid redondeado mb-5 " src = " assets / img / portfolio / game.png " alt = "" />
+                                    <! - Modal de cartera - Texto ->
+                                    < p  class = " mb-5 " > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam. </ p >
+                                    < button  class = " btn btn-primary " data-dispats = " modal " >
+                                        < i  class = " fas fa-times fa-fw " > </ i >
+                                        Cerrar ventana
+                                    </ botón >
+                                </ div >
+                            </ div >
+                        </ div >
+                    </ div >
+                </ div >
+            </ div >
+        </ div >
+        <! - Modal de cartera 5 ->
+        < div  class = " portfolio-modal modal fade " id = " portfolioModal5 " tabindex = " -1 " role = " dialog " aria-labelledby = " portfolioModal5Label " aria-hidden = " true " >
+            < div  class = " modal-dialog modal-xl " role = " document " >
+                < div  class = " modal-content " >
+                    < button  class = " close " type = " button " data-dispats = " modal " aria-label = " Cerrar " >
+                        < span  aria-hidden = " true " > < i  class = " fas fa-times " > </ i > </ span >
+                    </ botón >
+                    < div  class = " modal-body text-center " >
+                        < div  class = " contenedor " >
+                            < div  class = " row justify-content-center " >
+                                < div  class = " col-lg-8 " >
+                                    <! - Modal de cartera - Título ->
+                                    < h2  class = " portafolio-modal-título texto-texto secundario-mayúsculas mb-0 " id = " portafolioModal5Label " > Caja fuerte bloqueada </ h2 >
+                                    <! - Divisor de iconos ->
+                                    < div  class = " divider-custom " >
+                                        < div  class = " divider-custom-line " > </ div >
+                                        < div  class = " divider-custom-icon " > < i  class = " fas fa-star " > </ i > </ div >
+                                        < div  class = " divider-custom-line " > </ div >
+                                    </ div >
+                                    <! - Modal de cartera - Imagen ->
+                                    < img  class = " img-fluid redondeado mb-5 " src = " assets / img / portfolio / safe.png " alt = "" />
+                                    <! - Modal de cartera - Texto ->
+                                    < p  class = " mb-5 " > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam. </ p >
+                                    < button  class = " btn btn-primary " data-dispats = " modal " >
+                                        < i  class = " fas fa-times fa-fw " > </ i >
+                                        Cerrar ventana
+                                    </ botón >
+                                </ div >
+                            </ div >
+                        </ div >
+                    </ div >
+                </ div >
+            </ div >
+        </ div >
+        <! - Modal de cartera 6 ->
+        < div  class = " portfolio-modal modal fade " id = " portfolioModal6 " tabindex = " -1 " role = " dialog " aria-labelledby = " portfolioModal6Label " aria-hidden = " true " >
+            < div  class = " modal-dialog modal-xl " role = " document " >
+                < div  class = " modal-content " >
+                    < button  class = " close " type = " button " data-dispats = " modal " aria-label = " Cerrar " >
+                        < span  aria-hidden = " true " > < i  class = " fas fa-times " > </ i > </ span >
+                    </ botón >
+                    < div  class = " modal-body text-center " >
+                        < div  class = " contenedor " >
+                            < div  class = " row justify-content-center " >
+                                < div  class = " col-lg-8 " >
+                                    <! - Modal de cartera - Título ->
+                                    < h2  class = " portafolio-modal-título texto-texto secundario-mayúsculas mb-0 " id = " portafolioModal6Label " > Submarino </ h2 >
+                                    <! - Divisor de iconos ->
+                                    < div  class = " divider-custom " >
+                                        < div  class = " divider-custom-line " > </ div >
+                                        < div  class = " divider-custom-icon " > < i  class = " fas fa-star " > </ i > </ div >
+                                        < div  class = " divider-custom-line " > </ div >
+                                    </ div >
+                                    <! - Modal de cartera - Imagen ->
+                                    < img  class = " img-fluid redondeado mb-5 " src = " assets / img / portfolio / submarine.png " alt = "" />
+                                    <! - Modal de cartera - Texto ->
+                                    < p  class = " mb-5 " > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam. </ p >
+                                    < button  class = " btn btn-primary " data-dispats = " modal " >
+                                        < i  class = " fas fa-times fa-fw " > </ i >
+                                        Cerrar ventana
+                                    </ botón >
+                                </ div >
+                            </ div >
+                        </ div >
+                    </ div >
+                </ div >
+            </ div >
+        </ div >
+        <! - Bootstrap core JS ->
+        < script  src = " https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js " > </ script >
+        < script  src = " https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js " > </ script >
+        <! - Complemento de terceros JS ->
+        < script  src = " https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js " > </ script >
+        <! - Formulario de contacto JS ->
+        < script  src = " assets / mail / jqBootstrapValidation.js " > </ script >
+        < script  src = " assets / mail / contact_me.js " > </ script >
+        <! - Tema principal JS ->
+        < script  src = " js / scripts.js " > </ script >
+    </ cuerpo >
+</ html >
